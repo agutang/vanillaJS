@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="src/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="clock-box fade-in">
+      <div class="date"></div>
+      <div class="clock"></div>
+    </div>
+    <form class="login__input-form hidden fade-in">
+      <input
+        type="text"
+        class="username"
+        placeholder="이름을 입력해주세요"
+        required
+      />
+    </form>
+    <div class="hello hidden fade-in"></div>
+    <div class="todo-box fade-in">
+      <form class="todo-form">
+        <input type="text" class="todo" placeholder="해야 할 일" required />
+      </form>
+      <ul class="todo-list"></ul>
+    </div>
+    <div class="weather fade-in">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="src/clock.js"></script>
+    <script src="src/login.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
